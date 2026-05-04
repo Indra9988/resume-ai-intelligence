@@ -1,0 +1,54 @@
+{
+  "best_model": "Logistic Regression",
+  "classes": [
+    "Backend Developer",
+    "Cybersecurity Analyst",
+    "Data Engineer",
+    "Data Scientist",
+    "DevOps Engineer",
+    "Frontend Developer",
+    "Full Stack Developer",
+    "Mobile Developer"
+  ],
+  "num_classes": 8,
+  "vectorizer_features": 1835,
+  "results": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "train_time_sec": 0.04,
+      "cv_f1_mean": 1.0,
+      "cv_f1_std": 0.0
+    },
+    "Linear SVM": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "train_time_sec": 0.01
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "train_time_sec": 0.23
+    },
+    "Naive Bayes": {
+      "accuracy": 1.0,
+      "f1_macro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "train_time_sec": 0.0
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.9792,
+      "f1_macro": 0.979,
+      "precision_macro": 0.9821,
+      "recall_macro": 0.9792,
+      "train_time_sec": 2.19
+    }
+  }
+}
